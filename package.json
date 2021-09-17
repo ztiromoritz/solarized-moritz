@@ -1,0 +1,24 @@
+{
+    "name": "solarized-moritz",
+    "displayName": "solarized-moritz",
+    "description": "My personal solarized dark",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "scripts": {
+        "extension": "cp ../solarized-moritz ~/.vscode/extensions/ -rf"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Moritz (dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/My personal solarized dark-color-theme.json"
+            }
+        ]
+    }
+}
